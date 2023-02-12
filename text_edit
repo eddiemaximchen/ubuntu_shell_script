@@ -1,0 +1,7 @@
+#!/bin/bash
+cat 103_data.csv | grep 數學系
+#有數學系的行數都會出現
+cat 103_data.csv | grep 數學系 | cut -d ',' -f2 | uniq
+#以 , 為分隔字元 取第二個 並移除重複的字元
+cat 103_data.csv | grep 數學系 | cut -d ',' -f2 | uniq | wc -l
+#算數
