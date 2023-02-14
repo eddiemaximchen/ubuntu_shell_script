@@ -4,4 +4,5 @@ cat 103_data.csv | grep 數學系
 cat 103_data.csv | grep 數學系 | cut -d ',' -f2 | uniq
 #以 , 為分隔字元 取第二個 並移除重複的字元
 cat 103_data.csv | grep 數學系 | cut -d ',' -f2 | uniq | wc -l
-#算數
+#wc算個數
+# tr -s ' ' 把多個空格變成一個
