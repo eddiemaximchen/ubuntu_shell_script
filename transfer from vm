@@ -1,0 +1,2 @@
+scp bigred@192.168.39.65:vmusdt2023-d6.zip .# linux to winodws in windows env
+scp c:\data.zip:bigred@192.168.39.65 # windows to linux in linux env
