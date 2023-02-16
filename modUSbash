@@ -1,0 +1,2 @@
+[ -d ~/.ssh ] && [ "$USER" == "bigred" ] && (env | grep -v -E 'USER=|LOGNAME=|PWD=|HOME=|XDG|DBUS_SESSION_BUS_ADDRESS=' | sudo tee /etc/environment &>/dev/null)
+# grep -v 就是不要 其他copy到 ubuntu environment
