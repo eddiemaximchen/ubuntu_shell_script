@@ -1,0 +1,5 @@
+#!bin/bash
+cp -R /home/bigred/opendata/p .
+# cp is copy file cp -R is copy dir
+#. means current dir
+# copy will not give me all folder structure, only p dir and it's will copy to my current dir
