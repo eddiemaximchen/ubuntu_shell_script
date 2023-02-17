@@ -1,0 +1,2 @@
+#!/bin/bash
+jq '.' yelp_academic_dataset_business.json | jq 'select(.state=="XMS")'
