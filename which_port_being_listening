@@ -1,0 +1,2 @@
+# check if port 80 is used
+lsof -nPi | grep ':80'
