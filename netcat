@@ -1,2 +1,0 @@
-# check if ip and port is active
-nc -vz ip port
