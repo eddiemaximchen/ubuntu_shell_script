@@ -1,1 +1,1 @@
-cat *.json | jq -s add >json/comments.json
+cat *.json | jq -s add >comments.json
