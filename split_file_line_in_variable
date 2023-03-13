@@ -1,0 +1,4 @@
+while IFS=" " read -r f1 f2 f3 f4 f5 f6 f7; # separator is space this example only split one line
+do
+   echo "User:" $f1
+done < /etc/passwd
