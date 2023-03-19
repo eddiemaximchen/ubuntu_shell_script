@@ -1,0 +1,4 @@
+sudo apt-get dist-upgrade
+sudo apt-get upgrade
+not updated package will reveal their name
+sudo apt-get updgrade package-name
