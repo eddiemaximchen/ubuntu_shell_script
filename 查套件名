@@ -1,0 +1,2 @@
+apt list | grep '套件名' 
+套件名
