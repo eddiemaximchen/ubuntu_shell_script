@@ -1,0 +1,2 @@
+ps aux | less # all pid
+ps aux | grep process name #find process id
