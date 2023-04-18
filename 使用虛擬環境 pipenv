@@ -1,0 +1,7 @@
+sudo -i pip install pipenv
+mkdir aa
+cd aa
+pipenv install (create pipenv)
+pipenv shell   (activate pipenv)
+exit           (deactivate pipenv)
+pipenv uninstall (uninstall pipenv)
